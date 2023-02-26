@@ -1,0 +1,277 @@
+{
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontWeight": "380",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 17,
+    "editor.letterSpacing": 0,
+    "csharp.semanticHighlighting.enabled": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "terminal.integrated.fontFamily": "Cascadia Mono",
+    "omnisharp.useModernNet": true,
+    "debug.console.fontFamily": "Cascadia Mono",
+    "debug.console.fontSize": 14,
+    "cmake.configureOnOpen": false,
+    "C_Cpp_Runner.cppStandard": "c++23",
+    "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+            "editor.background": "#0e0e0f",
+            //"terminal.background": "#1a1a1f",
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Default Dark+]": {
+            "functions": "#33c686",
+            "textMateRules": [
+                {
+                    "scope": "constant.other.placeholder.go",
+                    "settings": {
+                        "foreground": "#0ee3b8"
+                    },
+                },
+                {
+                    "scope": "constant.character.escape",
+                    "settings": {
+                        "foreground": "#ff9900"
+                    },
+                },
+                {
+                    "scope": "storage.type",
+                    "settings": {
+                        "fontStyle": "italic"
+                    },
+                },
+                {
+                    "scope": "constant.other.placeholder",
+                    "settings": {
+                        "foreground": "#00ffb3"
+                    },
+                },
+                {
+                    "scope": "comment",
+                    "settings": {
+                        "foreground": "#aaaaaa",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.built-in.primitive.cpp",
+                    "settings": {
+                        "foreground": "#ffaebf",
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        },
+        "[Default Light+ Experimental]": {
+            "textMateRules": [
+                {
+                    "scope": "comment",
+                    "settings": {
+                        "foreground": "#505050",
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        },
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[Default Dark+]": {
+            "enabled": true,
+            "rules": {
+                "struct": {
+                    "foreground": "#d1aeff",
+                    "fontStyle": "italic"
+                },
+                "type": {
+                    "foreground": "#d1aeff",
+                    "fontStyle": "italic"
+                },
+                "class": {
+                    "foreground": "#b57dff",
+                    "fontStyle": "italic"
+                },
+                "class.static": {
+                    "foreground": "#d373ff",
+                    "fontStyle": ""
+                },
+                "enum": {
+                    "foreground": "#ff7b00",
+                    "fontStyle": "italic"
+                },
+                "interface": {
+                    "foreground": "#9fff90",
+                    "fontStyle": "italic"
+                },
+                "method": "#33c686",
+                "method.static": "#fffeaa",
+                "function": "#fffeaa",
+                "namespace": "#ffffff",
+                "variable": "#a3ffff",
+                "property": "#00ffff",
+                "enumMember": "#fcae65",
+                "templateType": "#b57dff",
+                "operator": "#9dff00",
+                "macro": {
+                    "foreground": "#9ac633",
+                    "fontStyle": "underline"
+                },
+                "label": {
+                    "foreground": "#fffed2",
+                    "fontStyle": "underline"
+                }
+            }
+        },
+        "[Default Light+ Experimental]": {
+            "enabled": true,
+            "rules": {
+                "type": {
+                    "foreground": "#8426ff",
+                    "fontStyle": "italic"
+                },
+                "class": {
+                    "foreground": "#6f00ff",
+                    "fontStyle": "italic"
+                },
+                "function": {
+                    "foreground": "#b19600"
+                },
+                "macro": {
+                    "foreground": "#436800",
+                    "underline": true
+                }
+            }
+        }
+    },
+    "C_Cpp.default.cppStandard": "c++23",
+    "C_Cpp.default.cStandard": "c17",
+    "git.autofetch": true,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "asm-code-lens.donated": true,
+    "asm-code-lens.enableCodeLenses": false,
+    "leetcode.workspaceFolder": "c:\\Users\\sutee\\source\\cs1d",
+    "leetcode.defaultLanguage": "cpp",
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.hint.commandShortcut": false,
+    "leetcode.hint.commentDescription": false,
+    "security.workspace.trust.banner": "always",
+    "remote.SSH.remotePlatform": {
+        "green10.ps.uci.edu": "linux"
+    },
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "grunt.autoDetect": "on",
+    "C_Cpp.clang_format_style": "file:C:\\Users\\sutee\\.vscode\\extensions\\ms-vscode.cpptools-1.13.3-win32-x64\\LLVM\\bin\\.clang-format",
+    "C_Cpp.clang_format_fallbackStyle": "GNU",
+    "hexeditor.columnWidth": 32,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "cppStandard": 23,
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_TAGRET_TRIPLET": "x64-windows",
+        "CMAKE_CXX_STANDARD": "23"
+    },
+    "C_Cpp.default.mergeConfigurations": true,
+    "C_Cpp.codeAnalysis.clangTidy.checks.enabled": [
+        "*"
+    ],
+    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
+        "llvm-*",
+        "llvmlibc-*",
+        "fuchsia-*",
+        "hicpp-braces-around-statements",
+        "readability-braces-around-statements",
+        "modernize-use-trailing-return-type",
+        "readability-identifier-length",
+        "*",
+        "abseil-*"
+    ],
+    "rust-analyzer.rustfmt.rangeFormatting.enable": true,
+    "rust-analyzer.rustfmt.extraArgs": [
+        "--unstable-features"
+    ],
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "terminal.integrated.tabs.enabled": false,
+    "audioCues.taskCompleted": "off",
+    "audioCues.taskFailed": "off",
+    "audioCues.onDebugBreak": "off",
+    "workbench.sideBar.location": "right",
+    "zls.path": "c:\\Users\\sutee\\AppData\\Roaming\\Code\\User\\globalStorage\\augusterame.zls-vscode\\zls_install\\zls.exe",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.formatting": "vcFormat",
+    "C_Cpp.vcFormat.indent.preserveComments": true,
+    "editor.accessibilitySupport": "off",
+    "editor.renderWhitespace": "trailing",
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "editor.indentSize": "tabSize",
+    "liveshare.accessibility.soundsEnabled": false,
+    "C_Cpp.errorSquiggles": "enabled",
+    "debug.onTaskErrors": "showErrors",
+    "C_Cpp.files.exclude": {
+        "**/.vscode": true,
+        "**/.vs": true
+    },
+    "cmake.generator": "MinGW Makefiles",
+    "cmake.mingwSearchDirs": [
+        "C:\\mingw64"
+    ],
+    "C_Cpp.default.compilerPath": "C:/mingw64/bin/g++.exe",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**"
+    ]
+}
